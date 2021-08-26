@@ -1,0 +1,581 @@
+# Logfile created on 2021-08-26 14:17:46 +0900 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 14:17:46 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [602fbaac] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [602fbaac] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 14:33:10 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2f9ab4a0] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [2f9ab4a0] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+ DEBUG [2f9ab4a0] 	
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+ DEBUG [2f9ab4a0] 	sudo
+ DEBUG [2f9ab4a0] 	: 
+ DEBUG [2f9ab4a0] 	no tty present and no askpass program specified
+ DEBUG [2f9ab4a0] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:08:43 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [eae3b548] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [eae3b548] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+ DEBUG [eae3b548] 	mkdir: created directory ‘/var/www’
+mkdir: created directory ‘/var/www/capistrano_test’
+  INFO [eae3b548] Finished in 0.415 seconds with exit status 0 (successful).
+ DEBUG [c68187bb] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [c68187bb] Command: /usr/bin/env id -un
+ DEBUG [c68187bb] 	deploy
+ DEBUG [c68187bb] Finished in 0.109 seconds with exit status 0 (successful).
+ DEBUG [fdce83ea] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [fdce83ea] Command: /usr/bin/env id -gn
+ DEBUG [fdce83ea] 	deploy
+ DEBUG [fdce83ea] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [dbc63524] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [dbc63524] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [dbc63524] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [b9eac259] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [b9eac259] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b9eac259] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-77550c93e93b747f533b.sh 0.0%
+  INFO Uploading /tmp/git-ssh-77550c93e93b747f533b.sh 100.0%
+  INFO [fe21254a] Running /usr/bin/env chmod 700 /tmp/git-ssh-77550c93e93b747f533b.sh as deploy@54.95.44.201
+ DEBUG [fe21254a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-77550c93e93b747f533b.sh
+  INFO [fe21254a] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [0611fd93] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [0611fd93] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-77550c93e93b747f533b.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [0611fd93] 	/usr/bin/env: 
+ DEBUG [0611fd93] 	git
+ DEBUG [0611fd93] 	: No such file or directory
+ DEBUG [0611fd93] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:12:49 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [16280ccd] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [16280ccd] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [16280ccd] Finished in 0.420 seconds with exit status 0 (successful).
+ DEBUG [05401918] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [05401918] Command: /usr/bin/env id -un
+ DEBUG [05401918] 	deploy
+ DEBUG [05401918] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [a325c189] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [a325c189] Command: /usr/bin/env id -gn
+ DEBUG [a325c189] 	deploy
+ DEBUG [a325c189] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [8a1266a5] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [8a1266a5] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [8a1266a5] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [43bcfc7e] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [43bcfc7e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [43bcfc7e] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-8c1809b4784183751092.sh 0.0%
+  INFO Uploading /tmp/git-ssh-8c1809b4784183751092.sh 100.0%
+  INFO [4464f5c8] Running /usr/bin/env chmod 700 /tmp/git-ssh-8c1809b4784183751092.sh as deploy@54.95.44.201
+ DEBUG [4464f5c8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-8c1809b4784183751092.sh
+  INFO [4464f5c8] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [b03d5bc6] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [b03d5bc6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8c1809b4784183751092.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [b03d5bc6] 	Warning: Permanently added 'github.com,52.69.186.44' (RSA) to the list of known hosts.
+ DEBUG [b03d5bc6] 	Permission denied (publickey).
+ DEBUG [b03d5bc6] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:16:32 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [59a5b521] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [59a5b521] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [59a5b521] Finished in 0.429 seconds with exit status 0 (successful).
+ DEBUG [00f4641f] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [00f4641f] Command: /usr/bin/env id -un
+ DEBUG [00f4641f] 	deploy
+ DEBUG [00f4641f] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [27a78678] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [27a78678] Command: /usr/bin/env id -gn
+ DEBUG [27a78678] 	deploy
+ DEBUG [27a78678] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [ec0c7f0c] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [ec0c7f0c] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [ec0c7f0c] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [5ea468db] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [5ea468db] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5ea468db] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-a6f6ab5cef31dc8b8e68.sh 0.0%
+  INFO Uploading /tmp/git-ssh-a6f6ab5cef31dc8b8e68.sh 100.0%
+  INFO [e4ee8371] Running /usr/bin/env chmod 700 /tmp/git-ssh-a6f6ab5cef31dc8b8e68.sh as deploy@54.95.44.201
+ DEBUG [e4ee8371] Command: /usr/bin/env chmod 700 /tmp/git-ssh-a6f6ab5cef31dc8b8e68.sh
+  INFO [e4ee8371] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [391f75df] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [391f75df] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6f6ab5cef31dc8b8e68.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [391f75df] 	Permission denied (publickey).
+ DEBUG [391f75df] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:20:40 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [94f246fa] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [94f246fa] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [94f246fa] Finished in 0.408 seconds with exit status 0 (successful).
+ DEBUG [9fcf7d09] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [9fcf7d09] Command: /usr/bin/env id -un
+ DEBUG [9fcf7d09] 	deploy
+ DEBUG [9fcf7d09] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [8f97a35a] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [8f97a35a] Command: /usr/bin/env id -gn
+ DEBUG [8f97a35a] 	deploy
+ DEBUG [8f97a35a] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [34a3cc20] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [34a3cc20] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [34a3cc20] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [f2507d93] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [f2507d93] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f2507d93] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-c4cbe6cabb297dd83106.sh 0.0%
+  INFO Uploading /tmp/git-ssh-c4cbe6cabb297dd83106.sh 100.0%
+  INFO [99c37961] Running /usr/bin/env chmod 700 /tmp/git-ssh-c4cbe6cabb297dd83106.sh as deploy@54.95.44.201
+ DEBUG [99c37961] Command: /usr/bin/env chmod 700 /tmp/git-ssh-c4cbe6cabb297dd83106.sh
+  INFO [99c37961] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [c3070f8c] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [c3070f8c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c4cbe6cabb297dd83106.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [c3070f8c] 	Warning: Permanently added the RSA host key for IP address '13.114.40.48' to the list of known hosts.
+ DEBUG [c3070f8c] 	Permission denied (publickey).
+ DEBUG [c3070f8c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:33:52 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [62ac24ea] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [62ac24ea] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [62ac24ea] Finished in 0.405 seconds with exit status 0 (successful).
+ DEBUG [3843d6bd] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [3843d6bd] Command: /usr/bin/env id -un
+ DEBUG [3843d6bd] 	deploy
+ DEBUG [3843d6bd] Finished in 0.109 seconds with exit status 0 (successful).
+ DEBUG [e5758252] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [e5758252] Command: /usr/bin/env id -gn
+ DEBUG [e5758252] 	deploy
+ DEBUG [e5758252] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [29047681] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [29047681] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [29047681] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO [425cdee5] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [425cdee5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [425cdee5] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-aa372d4c851419aba1b4.sh 0.0%
+  INFO Uploading /tmp/git-ssh-aa372d4c851419aba1b4.sh 100.0%
+  INFO [4f9b9911] Running /usr/bin/env chmod 700 /tmp/git-ssh-aa372d4c851419aba1b4.sh as deploy@54.95.44.201
+ DEBUG [4f9b9911] Command: /usr/bin/env chmod 700 /tmp/git-ssh-aa372d4c851419aba1b4.sh
+  INFO [4f9b9911] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [96b19851] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [96b19851] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-aa372d4c851419aba1b4.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [96b19851] 	Warning: Permanently added the RSA host key for IP address '52.192.72.89' to the list of known hosts.
+ DEBUG [96b19851] 	Permission denied (publickey).
+ DEBUG [96b19851] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:47:26 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [435ad291] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [435ad291] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:49:07 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bf6898c7] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [bf6898c7] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [bf6898c7] Finished in 0.409 seconds with exit status 0 (successful).
+ DEBUG [ffcfc8d0] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [ffcfc8d0] Command: /usr/bin/env id -un
+ DEBUG [ffcfc8d0] 	deploy
+ DEBUG [ffcfc8d0] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [4cdd1485] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [4cdd1485] Command: /usr/bin/env id -gn
+ DEBUG [4cdd1485] 	deploy
+ DEBUG [4cdd1485] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [b9d93b14] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [b9d93b14] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [b9d93b14] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [cad5ed2c] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [cad5ed2c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cad5ed2c] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-bbd1bd3360c9331a4375.sh 0.0%
+  INFO Uploading /tmp/git-ssh-bbd1bd3360c9331a4375.sh 100.0%
+  INFO [15402c40] Running /usr/bin/env chmod 700 /tmp/git-ssh-bbd1bd3360c9331a4375.sh as deploy@54.95.44.201
+ DEBUG [15402c40] Command: /usr/bin/env chmod 700 /tmp/git-ssh-bbd1bd3360c9331a4375.sh
+  INFO [15402c40] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [ef4d4900] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [ef4d4900] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-bbd1bd3360c9331a4375.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [ef4d4900] 	Permission denied (publickey).
+ DEBUG [ef4d4900] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:52:05 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b597954d] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [b597954d] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [b597954d] Finished in 0.397 seconds with exit status 0 (successful).
+ DEBUG [383b1272] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [383b1272] Command: /usr/bin/env id -un
+ DEBUG [383b1272] 	deploy
+ DEBUG [383b1272] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG [24991565] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [24991565] Command: /usr/bin/env id -gn
+ DEBUG [24991565] 	deploy
+ DEBUG [24991565] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [3812e2ab] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [3812e2ab] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [3812e2ab] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [5e54c999] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [5e54c999] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5e54c999] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-dfc085d7553606d4d4ca.sh 0.0%
+  INFO Uploading /tmp/git-ssh-dfc085d7553606d4d4ca.sh 100.0%
+  INFO [4fcb8498] Running /usr/bin/env chmod 700 /tmp/git-ssh-dfc085d7553606d4d4ca.sh as deploy@54.95.44.201
+ DEBUG [4fcb8498] Command: /usr/bin/env chmod 700 /tmp/git-ssh-dfc085d7553606d4d4ca.sh
+  INFO [4fcb8498] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [0f8dfe53] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [0f8dfe53] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-dfc085d7553606d4d4ca.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [0f8dfe53] 	Permission denied (publickey).
+ DEBUG [0f8dfe53] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 15:58:52 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [426852d6] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [426852d6] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [426852d6] Finished in 0.394 seconds with exit status 0 (successful).
+ DEBUG [8083a155] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [8083a155] Command: /usr/bin/env id -un
+ DEBUG [8083a155] 	deploy
+ DEBUG [8083a155] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG [a944dfd7] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [a944dfd7] Command: /usr/bin/env id -gn
+ DEBUG [a944dfd7] 	deploy
+ DEBUG [a944dfd7] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [8a5c00fa] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [8a5c00fa] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [8a5c00fa] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [f9a7e9a5] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [f9a7e9a5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f9a7e9a5] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-0815113ea5a37787585c.sh 0.0%
+  INFO Uploading /tmp/git-ssh-0815113ea5a37787585c.sh 100.0%
+  INFO [2b6497f2] Running /usr/bin/env chmod 700 /tmp/git-ssh-0815113ea5a37787585c.sh as deploy@54.95.44.201
+ DEBUG [2b6497f2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-0815113ea5a37787585c.sh
+  INFO [2b6497f2] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [f104be6b] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [f104be6b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-0815113ea5a37787585c.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [f104be6b] 	Permission denied (publickey).
+ DEBUG [f104be6b] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 16:07:48 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [52e7365c] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [52e7365c] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 16:08:16 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4f638001] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [4f638001] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 16:11:20 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2f8c8944] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [2f8c8944] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 16:13:05 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [663c95f1] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [663c95f1] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 16:51:11 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d1368330] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [d1368330] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 16:55:11 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [285b3ef6] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [285b3ef6] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 16:57:17 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3e627ec0] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [3e627ec0] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 17:01:58 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [281e5fa1] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [281e5fa1] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 17:13:36 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6c2fc23a] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [6c2fc23a] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 17:35:47 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d6dd3366] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [d6dd3366] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 17:36:41 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9350af66] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [9350af66] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 17:41:54 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ac4b1833] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [ac4b1833] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 18:08:55 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [277159be] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [277159be] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [277159be] Finished in 0.401 seconds with exit status 0 (successful).
+ DEBUG [67c4c162] Running /usr/bin/env id -un as deploy@54.95.44.201
+ DEBUG [67c4c162] Command: /usr/bin/env id -un
+ DEBUG [67c4c162] 	deploy
+ DEBUG [67c4c162] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [4a32026f] Running /usr/bin/env id -gn as deploy@54.95.44.201
+ DEBUG [4a32026f] Command: /usr/bin/env id -gn
+ DEBUG [4a32026f] 	deploy
+ DEBUG [4a32026f] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [a9135980] Running /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [a9135980] Command: /usr/bin/env sudo chown deploy:deploy /var/www/capistrano_test
+  INFO [a9135980] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [0a7a3597] Running /usr/bin/env mkdir -p /tmp as deploy@54.95.44.201
+ DEBUG [0a7a3597] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0a7a3597] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-f325a0967fecb9d88793.sh 0.0%
+  INFO Uploading /tmp/git-ssh-f325a0967fecb9d88793.sh 100.0%
+  INFO [297e6627] Running /usr/bin/env chmod 700 /tmp/git-ssh-f325a0967fecb9d88793.sh as deploy@54.95.44.201
+ DEBUG [297e6627] Command: /usr/bin/env chmod 700 /tmp/git-ssh-f325a0967fecb9d88793.sh
+  INFO [297e6627] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [c05a79f7] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as deploy@54.95.44.201
+ DEBUG [c05a79f7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f325a0967fecb9d88793.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [c05a79f7] 	Permission denied (publickey).
+ DEBUG [c05a79f7] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:06:36 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1af75398] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [1af75398] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:10:23 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6f3a595e] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as deploy@54.95.44.201
+ DEBUG [6f3a595e] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:15:29 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [302cb6c9] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as ec2-user@54.95.44.201
+ DEBUG [302cb6c9] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO [302cb6c9] Finished in 0.411 seconds with exit status 0 (successful).
+ DEBUG [2ea66bfd] Running /usr/bin/env id -un as ec2-user@54.95.44.201
+ DEBUG [2ea66bfd] Command: /usr/bin/env id -un
+ DEBUG [2ea66bfd] 	ec2-user
+ DEBUG [2ea66bfd] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG [963bbb05] Running /usr/bin/env id -gn as ec2-user@54.95.44.201
+ DEBUG [963bbb05] Command: /usr/bin/env id -gn
+ DEBUG [963bbb05] 	ec2-user
+ DEBUG [963bbb05] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [cf9d62e6] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/capistrano_test as ec2-user@54.95.44.201
+ DEBUG [cf9d62e6] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/capistrano_test
+  INFO [cf9d62e6] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [6d18b0bc] Running /usr/bin/env mkdir -p /tmp as ec2-user@54.95.44.201
+ DEBUG [6d18b0bc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6d18b0bc] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-3961db4300fff6f0376e.sh 0.0%
+  INFO Uploading /tmp/git-ssh-3961db4300fff6f0376e.sh 100.0%
+  INFO [d11b8b0d] Running /usr/bin/env chmod 700 /tmp/git-ssh-3961db4300fff6f0376e.sh as ec2-user@54.95.44.201
+ DEBUG [d11b8b0d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-3961db4300fff6f0376e.sh
+  INFO [d11b8b0d] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [d78890a0] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as ec2-user@54.95.44.201
+ DEBUG [d78890a0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-3961db4300fff6f0376e.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [d78890a0] 	Warning: Permanently added 'github.com,52.69.186.44' (RSA) to the list of known hosts.
+ DEBUG [d78890a0] 	Permission denied (publickey).
+ DEBUG [d78890a0] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:18:40 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [07ff1254] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as ec2-user@54.95.44.201
+ DEBUG [07ff1254] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:33:45 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7bd4a41c] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as ec2-user@54.95.44.201
+ DEBUG [7bd4a41c] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:55:28 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [08f36871] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano_test as ec2-user@54.95.44.201
+ DEBUG [08f36871] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano_test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:57:06 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [759cd8c7] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano-test as ec2-user@54.95.44.201
+ DEBUG [759cd8c7] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano-test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 19:59:46 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [567b9e3b] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano-test as ec2-user@54.95.44.201
+ DEBUG [567b9e3b] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano-test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:04:15 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f7b47745] Running /usr/bin/env sudo mkdir -pv /var/www/capistrano-test as ec2-user@54.95.44.201
+ DEBUG [f7b47745] Command: /usr/bin/env sudo mkdir -pv /var/www/capistrano-test
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:05:28 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9e4dea75] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [9e4dea75] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:07:14 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3a0785e9] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [3a0785e9] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:09:48 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7d861966] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [7d861966] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:13:34 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d6c6f383] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [d6c6f383] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:18:12 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5f4ddad2] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [5f4ddad2] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:22:28 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3e29b55b] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [3e29b55b] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:25:00 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [70a5a0ea] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [70a5a0ea] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+ DEBUG [70a5a0ea] 	mkdir: created directory ‘/var/www/mumu’
+  INFO [70a5a0ea] Finished in 0.415 seconds with exit status 0 (successful).
+ DEBUG [bc3fd580] Running /usr/bin/env id -un as ec2-user@54.95.44.201
+ DEBUG [bc3fd580] Command: /usr/bin/env id -un
+ DEBUG [bc3fd580] 	ec2-user
+ DEBUG [bc3fd580] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG [b493a9a5] Running /usr/bin/env id -gn as ec2-user@54.95.44.201
+ DEBUG [b493a9a5] Command: /usr/bin/env id -gn
+ DEBUG [b493a9a5] 	ec2-user
+ DEBUG [b493a9a5] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [1210a7ce] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [1210a7ce] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/mumu
+  INFO [1210a7ce] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [3294848b] Running /usr/bin/env mkdir -p /tmp as ec2-user@54.95.44.201
+ DEBUG [3294848b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3294848b] Finished in 0.109 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-5e7b16985877b3ddb103.sh 0.0%
+  INFO Uploading /tmp/git-ssh-5e7b16985877b3ddb103.sh 100.0%
+  INFO [38621cc9] Running /usr/bin/env chmod 700 /tmp/git-ssh-5e7b16985877b3ddb103.sh as ec2-user@54.95.44.201
+ DEBUG [38621cc9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-5e7b16985877b3ddb103.sh
+  INFO [38621cc9] Finished in 0.121 seconds with exit status 0 (successful).
+  INFO [3b96dc79] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as ec2-user@54.95.44.201
+ DEBUG [3b96dc79] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5e7b16985877b3ddb103.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [3b96dc79] 	Permission denied (publickey).
+ DEBUG [3b96dc79] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:26:23 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a563f9fa] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [a563f9fa] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO [a563f9fa] Finished in 0.416 seconds with exit status 0 (successful).
+ DEBUG [e3aa4759] Running /usr/bin/env id -un as ec2-user@54.95.44.201
+ DEBUG [e3aa4759] Command: /usr/bin/env id -un
+ DEBUG [e3aa4759] 	ec2-user
+ DEBUG [e3aa4759] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [6a1d6137] Running /usr/bin/env id -gn as ec2-user@54.95.44.201
+ DEBUG [6a1d6137] Command: /usr/bin/env id -gn
+ DEBUG [6a1d6137] 	ec2-user
+ DEBUG [6a1d6137] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [dd8f9d31] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [dd8f9d31] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/mumu
+  INFO [dd8f9d31] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [3455d1e3] Running /usr/bin/env mkdir -p /tmp as ec2-user@54.95.44.201
+ DEBUG [3455d1e3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3455d1e3] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-430f2809e5daca29b21d.sh 0.0%
+  INFO Uploading /tmp/git-ssh-430f2809e5daca29b21d.sh 100.0%
+  INFO [2d6efcef] Running /usr/bin/env chmod 700 /tmp/git-ssh-430f2809e5daca29b21d.sh as ec2-user@54.95.44.201
+ DEBUG [2d6efcef] Command: /usr/bin/env chmod 700 /tmp/git-ssh-430f2809e5daca29b21d.sh
+  INFO [2d6efcef] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [7c131835] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as ec2-user@54.95.44.201
+ DEBUG [7c131835] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-430f2809e5daca29b21d.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [7c131835] 	Warning: Permanently added the RSA host key for IP address '13.114.40.48' to the list of known hosts.
+ DEBUG [7c131835] 	Permission denied (publickey).
+ DEBUG [7c131835] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-08-26 20:27:49 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [20a3c6cd] Running /usr/bin/env sudo mkdir -pv /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [20a3c6cd] Command: /usr/bin/env sudo mkdir -pv /var/www/mumu
+  INFO [20a3c6cd] Finished in 0.412 seconds with exit status 0 (successful).
+ DEBUG [143d8cbb] Running /usr/bin/env id -un as ec2-user@54.95.44.201
+ DEBUG [143d8cbb] Command: /usr/bin/env id -un
+ DEBUG [143d8cbb] 	ec2-user
+ DEBUG [143d8cbb] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG [c3c5ba2f] Running /usr/bin/env id -gn as ec2-user@54.95.44.201
+ DEBUG [c3c5ba2f] Command: /usr/bin/env id -gn
+ DEBUG [c3c5ba2f] 	ec2-user
+ DEBUG [c3c5ba2f] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [a0e47133] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/mumu as ec2-user@54.95.44.201
+ DEBUG [a0e47133] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/mumu
+  INFO [a0e47133] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [040bdeb2] Running /usr/bin/env mkdir -p /tmp as ec2-user@54.95.44.201
+ DEBUG [040bdeb2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [040bdeb2] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-8bce7f8f48d4fae94362.sh 0.0%
+  INFO Uploading /tmp/git-ssh-8bce7f8f48d4fae94362.sh 100.0%
+  INFO [2f3a1fea] Running /usr/bin/env chmod 700 /tmp/git-ssh-8bce7f8f48d4fae94362.sh as ec2-user@54.95.44.201
+ DEBUG [2f3a1fea] Command: /usr/bin/env chmod 700 /tmp/git-ssh-8bce7f8f48d4fae94362.sh
+  INFO [2f3a1fea] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [3557e226] Running /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD as ec2-user@54.95.44.201
+ DEBUG [3557e226] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8bce7f8f48d4fae94362.sh" ; /usr/bin/env git ls-remote git@github.com:sakaime/capistrano-test.git HEAD )
+ DEBUG [3557e226] 	Permission denied (publickey).
+ DEBUG [3557e226] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

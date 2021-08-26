@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 # アプリ名
-set :application, 'capistrano_test'
+set :application, 'capistrano-test'
 
 # GitHubのリポジトリ名
 set :repo_url, 'git@github.com:sakaime/capistrano-test.git'
